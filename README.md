@@ -1,6 +1,6 @@
 # ShellCheck pre-commit hook
 
-This is the official [pre-commit hook](https://pre-commit.com/) for
+This is forked from the official [pre-commit hook](https://pre-commit.com/) for
 [ShellCheck](https://github.com/koalaman/shellcheck),
 the static analysis tool for shell scripts.
 
@@ -8,7 +8,7 @@ Activate by adding it to your `.pre-commit-config.yaml`:
 
 ```sh
 repos:
--   repo: https://github.com/koalaman/shellcheck-precommit
+-   repo: https://github.com/infinum/shellcheck-precommit
     rev: v0.9.0
     hooks:
     -   id: shellcheck
